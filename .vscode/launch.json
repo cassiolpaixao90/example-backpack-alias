@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "diagnosticLogging": true,
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "dev:debug",
+      "program": "${workspaceRoot}/src/index.js",
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/babel-node",
+      "sourceMaps": true,
+      "restart": true,
+      "env": {
+        "BABEL_ENV": "development"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "example-backpack-alias",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "backpack",
+    "build": "backpack build",
+    "start": "node build/main.js"
+  },
+  "dependencies": {
+    "backpack-core": "^0.8.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/plugin-proposal-do-expressions": "^7.7.4",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "babel-plugin-root-import": "^6.4.1",
+    "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2",
+    "webpack-obfuscator": "^0.20.4"
+  }
+}
